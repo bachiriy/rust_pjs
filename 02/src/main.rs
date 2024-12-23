@@ -7,7 +7,7 @@ fn main() {
     println!("Please input your guess.");
 
     let secret_number: i32 = rand::thread_rng().gen_range(1..=100);
-    println!("secret number: {}", secret_number); 
+    // println!("secret number: {}", secret_number); 
 
     loop {
         let mut guess = String::new();
